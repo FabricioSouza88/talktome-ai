@@ -1,9 +1,17 @@
 from openai import BaseModel
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from app.services.chat_service import ChatService
 
 # Inicializar FastAPI e ChatService
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],  # Permite POST, GET, etc.
+    allow_headers=["*"],
+)
 chat_service = ChatService()
 
 class QuestionRequest(BaseModel):

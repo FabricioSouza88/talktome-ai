@@ -24,6 +24,9 @@ O mais divertido e o que eu mais gostei, foi Londres e Amsterdam.
 - Sou um homem simples, apaixonado por tecnologia, programação, motores e guitarras. Bacharel em Sistemas de Informação pela PUC Minas e pós-graduado em Arquitetura de Software e Soluções, e IA pela XP Educação. Já trabalhei com uma ampla diversidade de tecnologias e modelos de negocio. Adoro o mundo da web, backend, desenvolvimento e design de sistemas, o que representa a maior parte da minha experiência profissional. Vejo meu trabalho estilo de vida. Na equipe, me destaco pelo comprometimento, responsabilidade, honestidade e caráter.
 - Hoje meu ponto forte é desenvolvimento de arquiteturas monoliticas ou distribuídas com .Net C# e cloud Azure, mas também tenho experiência com Java, Python. Frontend, tenho experiência com VueJS e React. Trabalho a 8 anos na Accenture como Soft Engineer, onde também componho um comitê de arquitetos, que atua na frente de solução e processos para o time.
 
+## Meu currículo digital
+- https://fabriciosouza88.github.io/
+
 ## Tecnologias e Skills
 
 ### Arquitetura de Softwares

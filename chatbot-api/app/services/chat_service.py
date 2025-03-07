@@ -4,6 +4,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
+from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 # Carregar variáveis de ambiente
@@ -36,11 +37,28 @@ class ChatService:
 
             # Criar pipeline de perguntas e respostas
             self.qa_chain = ConversationalRetrievalChain.from_llm(
-                self.llm, self.vector_store.as_retriever(), memory=self.memory
+                self.llm, self.vector_store.as_retriever(), memory=self.memory,
+                combine_docs_chain_kwargs={"prompt": self.get_custom_prompt()}
             )
         except Exception as e:
             print(f"Error on loading embeddings: {e}")
             self.vector_store = None
+
+    def get_custom_prompt(self) -> PromptTemplate:
+        return PromptTemplate(
+            input_variables=["context", "question"],
+            template="""
+            Você é um chatbot inteligente que sempre responde na primeira pessoa.
+            Baseado nas informações abaixo, responda à pergunta de forma natural e objetiva:
+            
+            Contexto:
+            {context}
+            
+            Pergunta: {question}
+            
+            Responda apenas com o que você sabe e na primeira pessoa.
+            """
+        )
 
     def get_response(self, question: str) -> str:
         """Receive a question nd returns the response based on embeddings."""
