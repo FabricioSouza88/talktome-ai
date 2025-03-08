@@ -7,9 +7,9 @@ from app.services.chat_service import ChatService
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000", "http://localhost:7000", "https://fabriciosouza88.github.io"],
     allow_credentials=True,
-    allow_methods=["*"],  # Permite POST, GET, etc.
+    allow_methods=["POST"],
     allow_headers=["*"],
 )
 chat_service = ChatService()

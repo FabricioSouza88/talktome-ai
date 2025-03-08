@@ -6,8 +6,14 @@ interface Message {
   text: string;
 }
 
-const Chatbot: React.FC = () => {
-  const [messages, setMessages] = useState<Message[]>([]);
+interface ChatbotProps {
+  apiUri: string;
+  initialBotMessage?: string;
+}
+
+const Chatbot: React.FC<ChatbotProps> = ({ initialBotMessage, apiUri }) => {
+  const welcomeMessage: Message[] = initialBotMessage ? [{ sender: "bot", text: initialBotMessage }] : [];
+  const [messages, setMessages] = useState<Message[]>(welcomeMessage);
   const [input, setInput] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
 
@@ -21,7 +27,7 @@ const Chatbot: React.FC = () => {
 
     try {
       const response = await axios.post<{ response: string }>(
-        "http://localhost:8002/chat",
+        apiUri,
         { question: input }
       );
 
