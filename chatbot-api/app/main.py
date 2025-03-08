@@ -9,7 +9,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000", "http://localhost:7000", "https://fabriciosouza88.github.io"],
     allow_credentials=True,
-allow_methods=["POST", "GET", "OPTIONS", "HEAD"],
+    allow_methods=["POST", "GET", "OPTIONS", "HEAD"],
     allow_headers=["*"],
 )
 chat_service = ChatService()
