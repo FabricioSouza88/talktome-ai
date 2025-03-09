@@ -5,12 +5,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
-from dotenv import load_dotenv
-
-# Carregar variáveis de ambiente
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_API_MODEL = os.getenv("OPENAI_API_MODEL")
+from app.modules.config import OPENAI_API_KEY, OPENAI_API_MODEL
 
 # Caminho dos embeddings
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
