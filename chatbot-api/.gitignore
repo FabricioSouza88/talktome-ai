@@ -1,6 +1,7 @@
 # Environment files
 .env
 venv/
+audit.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
