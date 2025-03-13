@@ -18,13 +18,19 @@ Já tive a oportunidade de conhecer 6 países
 Desses, New York, foi o mais impactante, por ter sido minha primeira experiência no exterior.
 O mais divertido e o que eu mais gostei, foi Londres e Amsterdam.
 
+## Contato
+Se precisar entrar em contato comigo, pode me encontrar no seguintes canais:
+- LinkedIn: https://www.linkedin.com/in/fabriciosouza88/
+- GitHub: https://github.com/FabricioSouza88
+
 # Informações profissionais
 
 ## Sobre mim
 - Sou um homem simples, apaixonado por tecnologia, programação, motores e guitarras. Bacharel em Sistemas de Informação pela PUC Minas e pós-graduado em Arquitetura de Software e Soluções, e IA pela XP Educação. Já trabalhei com uma ampla diversidade de tecnologias e modelos de negocio. Adoro o mundo da web, backend, desenvolvimento e design de sistemas, o que representa a maior parte da minha experiência profissional. Vejo meu trabalho estilo de vida. Na equipe, me destaco pelo comprometimento, responsabilidade, honestidade e caráter.
 - Hoje meu ponto forte é desenvolvimento de arquiteturas monoliticas ou distribuídas com .Net C# e cloud Azure, mas também tenho experiência com Java, Python. Frontend, tenho experiência com VueJS e React. Trabalho a 8 anos na Accenture como Soft Engineer, onde também componho um comitê de arquitetos, que atua na frente de solução e processos para o time.
 
-## Meu currículo digital
+## Currículo digital, site pessoal
+Mantenho meu site pessoal e currículo digital em 
 - https://fabriciosouza88.github.io/
 
 ## Tecnologias e Skills
@@ -41,9 +47,21 @@ C# e o universo .NET hoje é a linguagem de programação que possuo maior exper
 Java foi a primeira linguagem que trabalhei profissionalmente. Embora já tenha trabalhado com arquiteturas desktop com JavaFx, minha maior experiencia é com Java pra Web, com Spring Boot e JPA.
 Tenho total familiaridade com a linguagem, utilização de conceitos avançados de POO, padrões de projeto, gerenciamento de depedências com Maven, Tomcat, e demais configurações.
 
+### Python
+Possuo experiência com Python, um pouco menor que C# e Java. Já trabalhei no desenvolvimento de API com fastapi, análise de dados com Pandas. Ou Scripts para automatizar processos. Sou familiarizado com o ambiente, eco sistema e com a sintaxe.
+
+### Javascript
+Sou bastante familiarizado com JavaScript e TypeScript, puro ou usando frameworks. 
+Minha maior experiência é com VueJS 2, e mais recentemente estou trabalhando com React.
+Não sou o expert em arquiteturas frontend modernas (como microfrontends), mas consigo trabalhar bem com Vue e React.
+Tenho domínio dos mecansmos de rotas, requisições, gerenciamento de estados, e total controle do ciclo de vida, gerenciamento de pacotes e interações entre componentes.
+
 ### SQL
 Tenho domínio da utilização de SQL, seja comandos de modificação (insert, update, delete), e queries complexas sobre uma massa grande de dados. Sei trabalhr com recursos como de caches, views, JOINS, etc.
 Já trabalhei com maioria dos bancos de dados populares (Postgres, SQLServer, MySQL, Oracle), e os NoSQL (MongoDB).
+
+### Inteligência Artificial e GenAI 
+Recentemente iniciei os estudos em inteligência artificial e análise de dados. Inclusive, esse chat que você está conversando foi uma demonstração dos conhecimentos com GenAI. Sei um pouco de enhenharia de prompts, uso de conceitos como embeddings, RAG, memória, API do OpenAI, etc. Mas ainda sou um aspirante no assunto. Pretendo me especializar mais.
 
 ### CSS
 A alguns anos trabalho exclusivamente com aplicações distribuidas, baseadas em serviços de baseados em mensageria ou eventos como (RabbitMQ, Kafka ou Azure Event Bus). Sei trabalhar com monitoramente de saúde, sistemas de logs como elastic search e application insights, mecanismos de retry, proxy reverso, configuração de firewalls, etc.
@@ -58,12 +76,6 @@ Entendo bem como funcionam os métodos HTTP, patterns, configuração de securit
 
 ### MVC Framework
 I have worked on several projects using the MVC pattern, it was by far the one I worked on the most, so I am quite familiar with it, especially in .Net and SpringBoot.
-
-### Javascript
-Sou bastante familiarizado com JavaScript e TypeScript, puro ou usando frameworks. 
-Minha maior experiência é com VueJS 2, e mais recentemente estou trabalhando com React.
-Não sou o expert em arquiteturas frontend modernas (como microfrontends), mas consigo trabalhar bem com Vue e React.
-Tenho domínio dos mecansmos de rotas, requisições, gerenciamento de estados, e total controle do ciclo de vida, gerenciamento de pacotes e interações entre componentes.
 
 ### Docker
 Utilizo Docker a bastante tempo:
